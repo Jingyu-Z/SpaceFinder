@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BookingApp.Views.LandingPage"
+             Title="LandingPage"
+             BackgroundColor="#FAF3E3">
+
+        <Grid>
+            <!-- Centered Logo and Title -->
+            <VerticalStackLayout Spacing="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Image Source="spacefinder_logo.png"
+               WidthRequest="200"
+               HeightRequest="200"/>
+
+            </VerticalStackLayout>
+        </Grid>
+   
+</ContentPage>
